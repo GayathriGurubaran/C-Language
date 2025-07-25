@@ -61,7 +61,27 @@ Heap:- A Big, Messy Storage Cabinet
 
 The size of operator:-
      1. To know the size of the operator we use - sixeof() .
-        refer repo size of
+        refer repo (size of)
+
+Scope of the Variable:-
+     1. A variable can be accessed using its name anywhere in a specific region of the program called its scope. 
+     2. It is the region of the program where the name assigned to the variable is valid.
+     3. A scope is generally the area inside the {} curly braces.
+
+const Usage :-
+     1. const is a keyword in C that you use when you want to protect a variable from being changed.
+     2. Once a variable is declared as const, its value cannot be modified after initialization.
+     3. Example :- #include <stdio.h>
+
+                    int main() {
+                      const int x = 10;
+                      x = 20;  // ❌ Error: trying to change a constant
+
+                     return 0;
+                 }
+
+
+
    
     
 
