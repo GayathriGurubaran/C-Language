@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num = 22;
+    const int num = 22;// this varible cannot be changed 
+    int n = 45 ;
+    n = 47;
+    printf("%d\n", n); // \n is the new line 
     
     // Finding size of num
     printf("%d bytes", sizeof(num));
