@@ -79,8 +79,21 @@ const Usage :-
 
                      return 0;
                  }
+     4. #define can be used instead of const keyword 
+     5. In C, the #define directive can also be used to define symbolic constants that do not require a data type. 
+     6. They are called macros and are replaced by their values at compile time.
+     5. Example :- #include <stdio.h>
+                   #define PI 3.14
 
+                    int main() {
+                       printf("%.2f", PI);  
+                       return 0;
+                    }
 
+Difference between the const and literal :-
+     1. The literal is just the initialization to the varible 
+     2. The const is where we cant change .
+     3. we can change the literal but the const cant be changed .
 
    
     
