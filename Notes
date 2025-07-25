@@ -1,0 +1,67 @@
+C Programming - Dennis Rithcie in 1972
+     Mid level , Procedural Language which focus on structures rather than their working of the structure
+
+Features :-
+     1. Procedural - Step by Step. 
+     2. Fast and efficient - Performance rate is high. 
+     3. Modularity - Storing the C programming in the form of Libraries. 
+     4. Statically Type - The type of variable is checked at the time of compliation.
+     5. Rich set of built in operators .
+
+Advantages :-
+     1. Efficiency :- It is fast and efficient language to create high performance applications .
+     2. Low level access :- C provides low level access to system resources. 
+     3. Widely Used :- Many modern languages are built on top.
+
+Disadvantages :-
+     1. Lack of memory management :- Does not provide automatic memory.
+     2. No support for OOPS :- More difficult to write the object oriented code.
+     3. No concurrency supoort :- Multithreading is not supported because the c is introduced at the 
+                                  time of the single ocre processor (It can do only one task at the time).
+
+Void Meaning :-
+     1.It does the action said by the computer but does not return any value .
+        Example :- void greet()
+                {
+                     printf("hello world");
+                }
+      this is void function which just do the greet function but it cant be returned for example ... 
+      : int x = greet(); // this is wrong this can not be done with void .
+        but it can be just callled with greet().
+
+Compilation Process :- 
+      1. Pre-processing 
+            * Removal of Comments
+            * Expansion of Macros
+            * Expansion of the included files.
+            * Conditional compilation
+      2. Compiling - to assembly code 
+      3. Assembling with assembler - assembly to machine code 
+      4. Linking 
+
+Automatic Memory Allocation in Stack :-
+      1. int x = 5; ---> this allocates thier automatic memory in the stack , the compiler does the memory allocation.
+      
+STACK AND HEAP :-
+
+Stack:- Fast, Small, Organized Countertop
+      1. It’s like a neat stack of trays.
+      2. You use it for quick, temporary tasks.
+      3. It’s automatically cleaned up when you're done.
+
+   Used for :- 
+      1. Function calls.
+      2. Local variables.
+      3. Parameters passed to functions.
+
+Heap:- A Big, Messy Storage Cabinet
+      1. It's a large storage area where you can manually place t
+      2. You decide when to use it and when to clean it.
+      3. If you forget to clean, it becomes a mess (called a memory leak!). 
+
+The size of operator:-
+     1. To know the size of the operator we use - sixeof() .
+        refer repo size of
+   
+    
+
